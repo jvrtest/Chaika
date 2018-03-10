@@ -1,0 +1,47 @@
+[33mcommit c2cce36a7838ce148e9cbdb94c56d157ad93c5e6[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m, [m[1;31morigin/HEAD[m[33m)[m
+Author: jvrtest <jvrtest@t-online.de>
+Date:   Fri Mar 9 00:41:26 2018 +0100
+
+    Finish Mobile Prototype
+
+[33mcommit 754d8cd975a4ebba3d9351a24b67675ea39ec299[m
+Author: jvrtest <jvrtest@t-online.de>
+Date:   Thu Mar 8 18:15:55 2018 +0100
+
+    Added posts
+
+[33mcommit 134ec7eac77cf3556ceea5f1790e803a78702c47[m
+Author: jvrtest <jvrtest@t-online.de>
+Date:   Sun Mar 4 00:30:39 2018 +0100
+
+    Finish initial layout
+
+[33mcommit 5d2dce85062c8917ba42e275cfae7119a3ecd021[m
+Author: jvrtest <jvrtest@t-online.de>
+Date:   Mon Feb 26 19:41:58 2018 +0100
+
+    CSS id and class
+
+[33mcommit c3894f63753134446d089b999bb547b28c956483[m
+Author: jvrtest <jvrtest@t-online.de>
+Date:   Mon Feb 26 14:41:08 2018 +0100
+
+    Second Pass Tutorial
+
+[33mcommit 2bbcc19318e852f95c3a9d0a983eb8aec731d822[m[33m ([m[1;31morigin/gh-pages[m[33m)[m
+Author: jvr <jurgenr@web.de>
+Date:   Fri Jul 21 14:30:28 2017 +0200
+
+    Finalize First CutTest Page
+
+[33mcommit 8fe29841d10f450a6561808affd98d678b3fdc88[m
+Author: jvr <jurgenr@web.de>
+Date:   Thu Jul 20 23:36:52 2017 +0200
+
+    Add CSS Styles and Selectors
+
+[33mcommit 1fe04f4134955f84746d133ab0d9c4bacc5d778c[m
+Author: jvr <jurgenr@web.de>
+Date:   Thu Jul 20 12:01:16 2017 +0200
+
+    Initialize repo
