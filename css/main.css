@@ -2,7 +2,8 @@
 
 html {
   box-shadow: 0 0 0 30px #000 inset;
-  padding: 0 30px;
+  box-
+  //padding: 0 30px;
 }
 
 body {
@@ -69,21 +70,39 @@ h2~p {
 .header-logo {
   background-color: #000;
   box-sizing: border-box;
-  display: block;
+  display: inline-block;
   height: 10vh;
-  left: -30px;
-  padding-top: 10px;
+  /*left: -30px;*/
+  /*padding-top: 10px;*/
   position: relative;
   text-align: center;
-  width: 10vh;
+  width: auto;
+  margin: 5px 0 5px 0
 }
 
-.header-logo:hover, .header-logo:active {
+.header-tri-menu {
+  background-color: #000;
+  box-sizing: border-box;
+  display: inline-block;
+  float:: right;
+  /*height: auto;*/
+  /*left: -30px;*/
+  /*padding-top: 10px;*/
+  position: relative;
+  /*text-align: center;*/
+  margin: 0 10px 0 0;
+  /*vertical-align: bottom;*/
+  /*width: auto;*/
+}
+
+.header-tri-menu:hover, .header-tri-menu:active {
   background-color: #ed6e2f;
 }
 
 .header-logo img {
-  width: 4.3vh;
+  /*width: 4.3vh;*/
+  /*  width: 10vh;*/
+  height: 10vh;
 }
 
 .header-nav {
@@ -106,7 +125,8 @@ h2~p {
 }
 
 .nav-links a, .drop-trigger, .show-mobile-menu {
-  font-size: 0.8rem;
+  //font-size: 0.8rem;
+  font-size: 1.0rem;
   font-weight: bold;
   text-decoration: none;
   text-transform: uppercase;
@@ -122,12 +142,6 @@ h2~p {
 
 .header-nav>li:first-child a:hover {
   color: #fff;
-}
-
-/* MOBILE MENU */
-
-.mobile-menu-check, .show-mobile-menu {
-  display: none;
 }
 
 /* DROPDOWN STYLES */
@@ -216,6 +230,12 @@ h2~p {
 .drop-menu a:hover {
   background-color: rgba(0, 0, 0, 0.1);
   color: #333;
+}
+
+/* MOBILE MENU */
+
+.mobile-menu-check, .show-mobile-menu {
+  display: none;
 }
 
 /* HIDE IN THE FOOTER */
@@ -328,7 +348,8 @@ h2~p {
 }
 
 .hero-home {
-  background-image: url(/images/shark.jpg);
+  /*background-image: url(/images/shark.jpg);*/
+  background-image: url(/images/gulls_05.jpg);
   background-position: center top;
 }
 
@@ -337,14 +358,14 @@ h2~p {
   position: relative;
   text-align: center;
   text-transform: uppercase;
-  top: 50%;
+  top: 20%;
   transform: translate(0, -50%);
 }
 
 .hero-content h1 {
   color: rgba(255, 255, 255, 0.8);
   font-size: 7vw;
-  margin-bottom: 0.25em;
+  margin-bottom: 2.25em;
 }
 
 .hero-content .social-link {
@@ -372,14 +393,14 @@ h2~p {
   color: #fff;
   display: inline-block;
   font-family: helvetica, arial, sans;
-  font-size: 1.7em;
+  font-size: 1.7em;*
   font-weight: bold;
   height: 1.5em;
   line-height: 1;
   padding-top: 0.25em;
   text-align: center;
   text-decoration: none;
-  vertical-align: middle;
+  vertical-align: center;
   width: 1.5em;
 }
 
@@ -638,6 +659,7 @@ h2~p {
   display: block;
   float: right;
   margin-top: 1.5vh;
+  margin-right: 1.5vh;
   padding: 1.5em;
   position: relative;
 }
